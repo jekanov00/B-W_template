@@ -6,6 +6,7 @@
 }
 
 :root {
+    background-color: #ffffff;
     font-family: "Helvetica Neue Lt Pro", sans-serif;
     font-size: 16px; /* Template has some 15px and 17px fonts, but I decided to use 16px as default*/
 }

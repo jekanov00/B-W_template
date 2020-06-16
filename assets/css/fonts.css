@@ -1,0 +1,57 @@
+
+/*Helvetica Neue Lt Pro*/
+
+@font-face {
+    font-family: "Helvetica Neue Lt Pro";
+    src: url("../fonts/helvetica-neue-lt-pro/HelveticaNeueLTProLt.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Lt Pro";
+    src: url("../fonts/helvetica-neue-lt-pro/HelveticaNeueLTProMd.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue Lt Pro Roman";
+    src: url("../fonts/helvetica-neue-lt-pro/HelveticaNeueLTProRoman.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Merriweather*/
+
+@font-face {
+    font-family: Merriweather;
+    src: url("../fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*Montserrat*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*Roboto*/
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}

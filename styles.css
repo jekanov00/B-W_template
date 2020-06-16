@@ -1,4 +1,5 @@
 @import "assets/css/grid.css";
+@import "components/page-header/page-header.css";
 
 
 * {
@@ -6,12 +7,19 @@
 }
 
 :root {
-    background-color: #ffffff;
     font-family: "Helvetica Neue Lt Pro", sans-serif;
+    font-weight: 300;
     font-size: 16px; /* Template has some 15px and 17px fonts, but I decided to use 16px as default*/
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
 }
 
 a {
     color: inherit;
     font-size: inherit;
+    text-decoration: none;
 }
+

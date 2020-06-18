@@ -10,7 +10,7 @@
 :root {
     font-family: "Helvetica Neue Lt Pro", sans-serif;
     font-weight: 300;
-    font-size: 16px; /* Template has some 15px and 17px fonts, but I decided to use 16px as default*/
+    font-size: 16px;
 }
 
 body {

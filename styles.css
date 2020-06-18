@@ -1,5 +1,6 @@
 @import "assets/css/grid.css";
 @import "components/page-header/page-header.css";
+@import "components/about-us/about-us.css";
 
 
 * {
@@ -23,3 +24,8 @@ a {
     text-decoration: none;
 }
 
+.text-overflow-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

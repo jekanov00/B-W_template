@@ -1,0 +1,106 @@
+#about-us {
+    background-color: #1d1d1d;
+    background-image: url("../../assets/images/mainLine.png");
+    background-position: center;
+    background-repeat: repeat-y;
+    text-align: left;
+    padding: 150px 0 0;
+}
+
+.about-us-article {
+    position: relative;
+}
+
+.about-us-article__year {
+    margin-bottom: 27px;
+    font-family: "Helvetica Neue Lt Pro Roman", sans-serif;
+    color: #fefefe;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+
+.about-us-article__paragraph {
+    width: 386px;
+    text-align: justify;
+    color: #b7b7b7;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+.about-us-article_left .about-us-article__year {
+    text-align: right;
+}
+
+.about-us-article_left .about-us-article__paragraph {
+    margin-left: auto;
+}
+
+.about-us-article_left {
+    padding-right: 75px;
+    margin-top: 112px;
+}
+
+.about-us-article_right {
+    padding-left: 75px;
+    margin-top: 122px;
+}
+
+.about-us-article_left:first-child {
+    margin-top: 0;
+}
+
+.about-us-article_right:last-child {
+    margin: 353px 0 210px;
+}
+
+.about-us-buildings {
+    position: relative;
+    width: 100%;
+    height: 236px;
+    overflow: hidden;
+}
+
+.about-us-buildings__black, .about-us-buildings__white {
+    position: absolute;
+    bottom: 0;
+    height: 236px;
+    width: 100%;
+    object-fit: cover;
+    object-position: -173px 1px;
+}
+
+.about-us-buildings__black {
+    bottom: 28px;
+}
+
+.about-us-article::after {
+    content: '';
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.about-us-article:last-child::after, .about-us-article:first-child::after, .about-us-article:nth-child(2)::after {
+    background-image: url("../../assets/images/circle-small.png");
+    height: 24px;
+    width: 24px;
+    top: 5px;
+}
+
+.about-us-article:first-child::after {
+    right: -12px;
+}
+
+.about-us-article:last-child::after, .about-us-article:nth-child(2)::after {
+    left: -12px;
+}
+
+.about-us-article:nth-child(3)::after {
+    background-image: url("../../assets/images/circle-big.png");
+    width: 46px;
+    height: 46px;
+    right: -23px;
+    top: -5px;
+}

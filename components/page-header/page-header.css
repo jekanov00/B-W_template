@@ -31,7 +31,8 @@
 }
 
 .page-header-nav__logo {
-    display: inline-block;
+    display: block;
+    margin: auto;
     width: 55px;
     height: 54px;
     object-fit: cover;

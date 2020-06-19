@@ -12,7 +12,7 @@
     height: 1386px;
     width: 50%;
     transform: skewY(7deg);
-    background-image: url("../../assets/images/blog-background.png");
+    background-image: url("blog-background.png");
     background-repeat: no-repeat;
     background-position: 0 780px;
 }

@@ -1,6 +1,6 @@
 #about-us {
     background-color: #1d1d1d;
-    background-image: url("../../assets/images/mainLine.png");
+    background-image: url("mainLine.png");
     background-position: center;
     background-repeat: repeat-y;
     text-align: left;
@@ -83,7 +83,7 @@
 }
 
 .about-us-article:last-child::after, .about-us-article:first-child::after, .about-us-article:nth-child(2)::after {
-    background-image: url("../../assets/images/circle-small.png");
+    background-image: url("circle-small.png");
     height: 24px;
     width: 24px;
     top: 5px;
@@ -98,7 +98,7 @@
 }
 
 .about-us-article:nth-child(3)::after {
-    background-image: url("../../assets/images/circle-big.png");
+    background-image: url("circle-big.png");
     width: 46px;
     height: 46px;
     right: -23px;

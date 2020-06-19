@@ -4,6 +4,8 @@
 }
 
 .page-header-nav {
+    /*position: fixed;*/
+    /*top: 0;*/
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -72,7 +74,7 @@
 .page-header-dots {
     position: absolute;
     left: calc(50% - 6px);
-    bottom: 92px;
+    bottom: 10vh;
     width: 12px;
     display: flex;
     flex-direction: column;

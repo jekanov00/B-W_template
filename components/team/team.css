@@ -3,21 +3,13 @@
 }
 
 .team-title {
-    margin: 0 auto 124px;
+    margin-bottom: 124px;
 }
 
 .team-title__title {
     color: #1d1e1f;
     letter-spacing: 0.68px;
     font-size: 34px;
-}
-
-.team-title__description {
-    color: #898888;
-    letter-spacing: 0.32px;
-    font-family: Merriweather, serif;
-    font-weight: 300;
-    font-style: italic;
 }
 
 .team-card__name {

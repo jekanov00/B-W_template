@@ -41,7 +41,7 @@
 
 
 .page-header-article {
-    margin:25% auto 0;
+    margin-top: 30vh;
 }
 
 .page-header-article__title {
@@ -50,12 +50,7 @@
     letter-spacing: 0.88px;
 }
 
-.page-header-article__description {
-    font-family: Merriweather, serif;
-    color: #898888;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 16px;
+#page-header .page-header-article__description {
     letter-spacing: 0.48px;
 }
 

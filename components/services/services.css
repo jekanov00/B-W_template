@@ -23,11 +23,8 @@
     letter-spacing: 0.68px;
 }
 
-.services-title__description {
+#services .services-title__description {
     color: #777777;
-    letter-spacing: 0.32px;
-    font-family: Merriweather, serif;
-    font-style: italic;
     margin-bottom: 218px;
 }
 

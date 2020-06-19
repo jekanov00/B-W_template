@@ -2,6 +2,7 @@
 @import "components/page-header/page-header.css";
 @import "components/about-us/about-us.css";
 @import "components/team/team.css";
+@import "components/services/services.css";
 
 
 * {
@@ -30,4 +31,22 @@ a {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.margin-auto {
+    margin: auto;
+}
+
+.description-text {
+
+}
+
+.slant {
+    transform: skewY(-7deg);
+    overflow: hidden;
+}
+
+.slant-inner {
+    transform: skewY(7deg);
+}
+
 

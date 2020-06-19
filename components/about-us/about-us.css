@@ -64,11 +64,11 @@
 
 .about-us-buildings__black, .about-us-buildings__white {
     position: absolute;
-    bottom: 0;
+    bottom: -2px;
     height: 236px;
     width: 100%;
     object-fit: cover;
-    object-position: -173px 1px;
+    object-position: -173px 0;
 }
 
 .about-us-buildings__black {
